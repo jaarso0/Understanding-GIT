@@ -18,8 +18,8 @@ So memory-wise Git and SVN end up similar; storing only what changed. The differ
 
 ##Things you should like about Git:
 - Git needs only local files and resources to operate, the entire history of the project is right there on your local disk.
-- Git is checksummed before it is stored and then referred to by the same checksum. Basically, you feed a files contents into a hashing algorithm and it spits out a fixed 40char string. So whatever you commit is ensured that is not corrupted. You do git clone so everyfile is reverse hashed and checked etc.
-- Git only adds data, it is hard to get the system to do anything that is not undoable or to make it erase data in any way.
+- Git is checksummed before it is stored and then referred to by the same checksum. Basically, you feed a files contents into a hashing algorithm and it spits out a fixed 40char string. So whatever you commit is ensured that is not corrupted. You do git clone so everyfile and commit is hashed and checked etc.
+- Git very much only adds data, it is hard to get the system to do anything that is not undoable or to make it erase data in any way.
 
 
 ##Three states of Git
